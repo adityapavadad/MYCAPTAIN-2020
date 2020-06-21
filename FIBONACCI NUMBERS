@@ -1,0 +1,26 @@
+Num = int(input(" HOW MANY TERMS: "))
+
+
+n1 = 0
+n2 = 1
+c=n1+n2
+print(n1)
+print(n2)
+ 
+while c<=Num:
+        print(c)
+        n1=n2
+        n2=c
+        c=n1+n2
+  OUTPUT:-
+   HOW MANY TERMS: 40
+0
+1
+1
+2
+3
+5
+8
+13
+21
+34
