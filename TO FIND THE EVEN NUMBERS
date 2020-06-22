@@ -1,0 +1,11 @@
+A = [19,55,45,77,22,78,43,60]
+print("THE EVEN NUMBERS FROM THE LIST:-")
+for number in A:
+   if number % 2 == 0:
+      print(number, end=" ")
+      
+OUTPUT:
+ THE EVEN NUMBERS FROM THE LIST:-
+ 22 78 60 
+ 
+ 
